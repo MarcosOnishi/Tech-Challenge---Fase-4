@@ -2,17 +2,20 @@
 
 Apos baixar arquivos: colocar em uma pasta de projetos
 
-executar no console:
+## Executar no console:
+### Download de Dependencias:
+*pip install -r requirements.txt* <br />
+(pode ser necessário o download de outras bibliotecas caso solicitado)
 
-Donwload de Dependencias:
-pip install -r requirements.txt   
+### Criação de venv (ambiente):
+*python -m venv venv* <br />
+(pode alterar o nome referente ao ultimo venv, caso quiser)
 
-Criação de venv (ambiente):
-python -m venv venv
+### Ativação de ambiente
+*.\venv\Scripts\activate* <br />
+(confirmação de ativado, ao lado do diretorio do console escrito "(venv)" em verde)
 
-Ativação de ambiente
-.\venv\Scripts\activate  
-
-Após todas instalações e preparação de ambiente rodar app.py para executar:
-streamlit run app.py     
+### Após todas instalações e preparação de ambiente rodar app.py para executar:
+*streamlit run app.py* <br />
+(abrirá uma aba do seu navegador)
 
